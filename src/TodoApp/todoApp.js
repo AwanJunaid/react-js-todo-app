@@ -6,7 +6,7 @@ function TodoApp(){
     const [inputItems,setInputItems]=useState("");
     const [items,setItems]= useState([]);
 
-    const addItems=()=>{
+    const addItem=()=>{
         setItems([...items,inputItems]);
         setInputItems("");
         
@@ -26,7 +26,7 @@ function TodoApp(){
                 <figure>
                  <figcaption>Add Your Item</figcaption>
                 </figure>
-                <div className="addItems">
+                <div className="addItem">
                     <input type="text" placeholder="Add Items"
                     value={inputItems}
                     onChange={(e)=>setInputItems(e.target.value)}/>
