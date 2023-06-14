@@ -6,7 +6,7 @@ function TodoApp(){
     const [inputItems,setInputItems]=useState("");
     const [items,setItems]= useState([]);
 
-    const addItemss=()=>{
+    const addIte=()=>{
         setItems([...items,inputItems]);
         setInputItems("");
         
