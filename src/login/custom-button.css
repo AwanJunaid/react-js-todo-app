@@ -1,0 +1,11 @@
+.custom-button {
+    min-width: 83%;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border: 1px solid #4285f4;
+    border-radius: 5px;
+    padding: 0 35px 0 35px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+}
